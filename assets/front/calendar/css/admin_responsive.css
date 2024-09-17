@@ -1,0 +1,374 @@
+@media (max-width: 1600px) {
+    .web-values .container {
+        max-width: 1400px;
+    }
+    .web-aboutus .container {
+        max-width: 1490px;
+    }
+    .btn {
+        font-size: 16px;
+        padding: 16px 2rem;
+    }
+}
+@media screen  and (max-width: 1460px ) {
+    .section-indicate, .section-indicate > img {
+        width: 95%;
+        margin: auto;
+    }
+    .about-boxer .about-box .about-location {
+        font-size: 18px;
+    }
+    .places-bg .section-title h3 {
+        font-size: 26px;
+    }
+    .places-bg .section-title h2 {
+        font-size: 75px;
+    }
+    .web-places .places-box .box-inner,
+    .web-services .service-box .box-inner {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .places-box .places-title {
+        font-size: 24px;
+    }
+    .web-services .section-title h2 {
+        font-size: 50px;
+    }
+    .web-services .section-title strong {
+        font-size: 110px;
+    }
+    .web-services {
+        padding: 70px 50px 170px 50px;
+    }
+}
+@media screen and (min-width: 1200px ) and (max-width: 1370px ) {
+    .wider-place {
+        -webkit-box-flex: 0;
+        -webkit-flex: 0 0 100%;
+           -moz-box-flex: 0;
+            -ms-flex: 0 0 100%;
+                flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+@media screen and (max-width: 1370px) {
+    .web-services .section-title h2 {
+        font-size: 50px;
+    }
+    .web-services .section-title strong {
+        font-size: 90px;
+    }
+    .services-wrap {
+        display: block;
+    }
+    .web-services {
+       padding-left:15px;
+       padding-right:15px;
+        position: relative;
+    }
+}
+@media screen and (min-width: 992px ) and (max-width: 1199px ){
+    .about-boxer .about-box .about-location {
+        font-size: 16px;
+    }
+    .navbar-brand {
+        max-width: 170px;
+    }
+    .navbar-secondry .page-searcher {
+        max-width: 200px;
+    }
+    .navbar-nav .nav-link:not(.btn-login) {
+        font-size: 13px;
+        margin: 10px 15px;
+    }
+    .navbar-secondry li a {
+        font-size: 12px;
+    }
+    .navbar-secondry li {
+        margin: 2px 10px;
+    }
+}
+@media (max-width: 1199px) {
+    .navbar-brand {
+        max-width: 190px;
+        margin-right: 1rem;
+    }
+    .owl-prev, .owl-next{
+        width: 70px;
+    }
+    #team-slider {
+        padding-left: 90px;
+    }
+    #members-slider {
+        padding: 0 95px;
+    }
+    .video-wrap iframe {
+        height: 500px;
+    }
+}
+@media (max-width: 991px) {
+    
+    h3 {
+        font-size: 22px;
+    }
+    h2 {
+        font-size: 36px;
+    }
+    h4 {
+        font-size: 18px;
+    }
+    h5 {
+        font-size: 16px;
+    }
+    .btn {
+        padding: 14px 1.75rem;
+        font-size: 14px;
+    }
+    .navbar-collapse {
+        width: 300px;
+        top: 0;
+        position: fixed;
+        background: #fff;
+        right: auto;
+        left: 0;
+        -webkit-transform: translate3d(-300px,0,0);
+           -moz-transform: translate3d(-300px,0,0);
+                transform: translate3d(-300px,0,0);
+        -webkit-transition: all .3s ease;
+        -o-transition: all .3s ease;
+        -moz-transition: all .3s ease;
+        transition: all .3s ease;
+        height: 100%;
+        bottom: 0;
+    }
+    .collapse.show {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-transform: translate3d(0,0,0);
+           -moz-transform: translate3d(0,0,0);
+                transform: translate3d(0,0,0);
+        z-index: 99;
+    }
+    .navbar-nav.ml-auto {
+        margin-left: 0 !important;
+        width: 100%;
+        padding-bottom: 15px;
+        margin-bottom: 30px;
+        border-bottom: 1px solid #f6f6f6;
+    }
+    .navbar-nav.ml-auto,
+    .navbar-collapse .navbar-secondry {
+        padding-left: 15px;
+    }
+    .navbar-collapse .navbar-secondry {
+        display: -webkit-inline-box;
+        display: -webkit-inline-flex;
+        display: -moz-inline-box;
+        display: -ms-inline-flexbox;
+        display: inline-flex;
+        -webkit-box-ordinal-group: 12;
+        -webkit-order: 11;
+           -moz-box-ordinal-group: 12;
+            -ms-flex-order: 11;
+                order: 11;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+           -moz-box-orient: vertical;
+           -moz-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+    .navbar-nav {
+        border-top: 1px solid #f6f6f6;
+    }
+    .navbar-nav .nav-link:not(.btn-login) {
+        margin: 10px 0;
+        display: inline-block;
+    }
+    .navbar-secondry li {
+        margin: 2px 0;
+        padding: 5px 0;
+    }
+    .navbar-nav .btn-login {
+        display: none;
+    }
+    .login-stand {
+        display: inline-block;
+    }
+    .flexy-title h1 {
+        font-size: 55px;
+    }
+    .red-layer {
+        max-width: 400px;
+    }
+    .web-places .places-box {
+        height: auto;
+    }
+    .custom-row {
+        display: block;
+    }
+    .custom-col-left {
+        width: 100%;
+        padding-right: 0;
+    }
+    .custom-col-right {
+        flex: 0 0 100%;
+        max-width: 100%;
+        width: 100%;
+    }
+    .calender-wrapp {
+        margin:0 0 15px 0;
+    }
+    .web-calendar {
+        background: #18191c;
+        padding: 15px 0 0;
+    }
+}
+@media only screen and (max-width:767px) {
+    h5, .btn {
+        font-size: 14px;
+    }
+    .main-reviewimage {
+        margin: 0 auto;
+        display: block;
+    }
+    .owl-prev, .owl-next {
+        width: 50px;
+    }
+    .footer-copyrght {
+        text-align: center;
+    }
+    .banner-caption .paras,
+    .about-boxer .about-box .about-location {
+        font-size: 16px;
+    }
+    .places-bg .section-title h3 {
+        font-size: 24px;
+    }
+    .places-bg .section-title h2 {
+        font-size: 65px;
+    }
+    .places-box .places-title {
+        font-size: 22px;
+    }
+    .team-box .team-name {
+        font-size: 20px;
+    }
+    #team-slider {
+        padding-left: 0;
+    }
+    .news-box .news-title, .downloaded-box p {
+        font-size: 15px;
+    }
+    .news-box .news-title, .downloaded-box .downloaded-title {
+        line-height: 20px;
+    }
+    .flexy-title h1 {
+        font-size: 50px;
+    }
+    .web-banner {
+        padding: 60px 0 130px 0;
+    }
+    .red-layer {
+        max-width: 250px;
+    }
+    .video-wrap iframe {
+        height: 400px;
+    }
+    .calender-wrapp {
+        padding: 15px;
+    }
+    .fc .fc-toolbar-title {
+        font-size: 30px;
+        font-weight: 500;;
+        white-space: nowrap;
+    }
+    .fc .fc-toolbar {
+        display: block;
+    }
+    .fc-button-group .fc-button {
+        margin: 20px 10px 0 0;
+        padding: 5px 15px;
+        font-size: 10px;
+    }
+    .buttons span {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+    .breadcrumb-txt h1 {
+        font-size: 30px;
+    }
+    .fc .fc-col-header-cell-cushion {
+        font-size: 10px;
+    }
+    .fc-col-header .fc-col-header-cell, 
+    .fc-theme-standard td .fc-daygrid-day-number {
+        font-size: 10px;
+    }
+    .fc .fc-daygrid-more-link {
+        font-size: 8px;
+    }
+    .buttons {
+        margin: 20px 0 0 0;
+    }
+    .buttons span {
+        padding: 5px 10px;
+        font-size: 10px;
+    }
+    .modal-content .btn {
+        padding: 10px 20px;
+    }
+}
+@media (max-width: 575px) {
+    body {
+        font-size: 13px;
+    }
+    h2 {
+        font-size: 32px;
+    }
+    .navbar {
+        padding: .5rem 2px;
+    }
+    .banner-caption .large-title {
+        font-size: 40px;
+    }
+    .banner-caption .paras,
+    .about-boxer .about-box .about-location {
+        font-size: 14px;
+        line-height: 25px;
+    }
+    .about-boxer .about-box .about-icon {
+        width: 90px;
+    }
+    .quick-links li.desktop-showing {
+        display: none;
+    }
+    .navbar-brand {
+        max-width: 130px;
+        margin-right:0;
+    }
+    .btn-login.btn {
+        padding: 10px 20px;
+    }
+    .banner-caption .large-title {
+        font-size: 30px;
+    }
+    .places-bg .section-title h2 {
+        font-size: 54px;
+    }
+    .about-boxer .about-box {
+        min-height: 100%;
+    }
+    .web-services .section-title h2 {
+        font-size: 40px;
+    }
+    .web-services .section-title strong {
+        font-size: 60px;
+    }
+}
+

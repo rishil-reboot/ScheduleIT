@@ -1,0 +1,177 @@
+@import url('//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css');
+
+@font-face {
+        font-family: 'Netflix Sans';
+        font-weight: 100;
+        font-display: optional;
+        src: url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Th.woff2) format('woff2'),url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Th.woff) format('woff')
+    }
+
+    @font-face {
+        font-family: 'Netflix Sans';
+        font-weight: 300;
+        font-display: optional;
+        src: url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Lt.woff2) format('woff2'),url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Lt.woff) format('woff')
+    }
+
+    @font-face {
+        font-family: 'Netflix Sans';
+        font-weight: 400;
+        font-display: optional;
+        src: url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Rg.woff2) format('woff2'),url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Rg.woff) format('woff')
+    }
+
+    @font-face {
+        font-family: 'Netflix Sans';
+        font-weight: 700;
+        font-display: optional;
+        src: url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Md.woff2) format('woff2'),url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Md.woff) format('woff')
+    }
+
+    @font-face {
+        font-family: 'Netflix Sans';
+        font-weight: 800;
+        font-display: optional;
+        src: url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Bd.woff2) format('woff2'),url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Bd.woff) format('woff')
+    }
+
+    @font-face {
+        font-family: 'Netflix Sans';
+        font-weight: 900;
+        font-display: optional;
+        src: url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Blk.woff2) format('woff2'),url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Blk.woff) format('woff')
+    }
+    .section1{
+      
+        background: url(https://ai.dissemino.com/assets/front/img/gallery/1608822373.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-attachment: scroll;
+        box-shadow: inset 0 0 0 1000px rgb(0 0 0 / 48%);
+    }
+    .section1 .pad{
+        padding-bottom: 80px;
+
+    }  
+    .nt_header{
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    .login-page, .register-page {
+    }
+    .login-box, .register-box {
+        margin: 2% auto;
+        height: auto;
+    }
+    .login-box-body {
+        /*box-shadow: 0px 0px 50px rgba(0,0,0,0.8);              */
+        background:rgb(0 0 0 / 72%);
+        color: '#666666'!important;
+    }
+    html,body {
+        /*overflow: hidden;*/
+        font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif
+    }
+    
+     .nt_header{
+        text-align: center;
+        color: #fff;
+     }
+    .nt_header h1{
+        font-size: 56px;
+        font-weight: 400;
+        padding-bottom: 25px;
+       
+    }
+    .nt_header h3{
+        font-size: 30px;
+        font-weight: 400;
+        padding-bottom: 29px;
+        
+       
+    }
+    .nt_header p{   
+        padding-bottom: 20px;
+        font-size: 18px;
+        font-weight: 600;
+        
+    }
+    .form button{
+        background: #e50914;
+        border: none;
+        float: left;
+        padding: 3px 19px;
+        color: white;
+        font-size: 26px;
+        cursor: pointer;
+        line-height: 2;
+        color: #fff;
+    }
+    .form input{
+        padding: 10px;
+        font-size: 17px;
+        float: left;
+        width: 45%;
+        line-height: 2;
+    }
+    .form input::after{
+      content: "";
+      clear: both;
+      display: table;
+
+    }
+    .black_bg{
+        background-color: black;
+        border-top:8px solid #222;
+        padding: 70px 45px;
+         /*border-bottom:8px solid #222;*/
+    }
+    .header_title{
+        color: #fff;
+    }
+    .header_title h2{
+        font-size: 42px;
+        font-weight: 800;
+        padding-bottom: 14px;
+
+    }
+    .header_title h3{
+        font-size: 26px;
+
+    }
+    .nt_header  input[type="email"]{
+        width:50%;
+    }
+    .nt_header button{
+        padding:15px 40px;
+        background-color: #e50914!important;   
+    }
+    .section4 .accordion-toggle:after {
+        font-family: 'FontAwesome';
+        content: "\002B";    
+        float: right;
+        font-size: 33px;
+    }
+    .section4 .accordion-opened .accordion-toggle:after {    
+        content: "\002B";    
+    }
+    .accordion-body{ background: #303030;}
+    .section4 .accordion-heading{
+        background: #303030;
+        padding: 14px 33px;
+        color: #fff;
+    }
+    .section4 a{
+        color: #fff;
+        font-size: 30px;
+    }
+    .section4 .accordion-inner{
+        margin: 1px 0;
+        padding: 14px 33px;
+        color: #fff;
+    }
+     .section4 .accordion-inner h3{ 
+        font-size: 22px;
+    }
+   
